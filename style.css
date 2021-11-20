@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+.calc-buttons {
+  height: 420px;
+  width: 327px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28px;
+  line-height: 31px;
+}
+
+.number-button {
+  height: 60px;
+  width: 60px;
+  margin: 6.5px;
+  background-color: #eae3dc;
+  color: #434a59;
+  border-radius: 5px;
+  box-shadow: 0px 4px 0px #b3a497;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.delete-button,
+.reset-button {
+  background-color: #647198;
+  color: #fff;
+  box-shadow: 0px 4px 0px #414e73;
+}
